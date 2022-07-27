@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body class="body">
+    <style>
+        *{
+    padding: 0;
+    margin: 0;
+}
+.body{
+    height: 915px;
+    background: linear-gradient(180deg, orange, darkblue);
+}
+/* profil */
+.profil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.prof{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110px;
+    width: 110px;
+    border: 12px solid whitesmoke;
+    border-radius: 50px;
+}
+/* menu */
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 45px;
+}
+.img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.adr{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 4px solid darkblue;
+    border-radius: 50px;
+    height: 75px;
+    width: 400px;
+}
+ 
+/* title */
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: auto;
+    background: whitesmoke;
+}
+.h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: darkblue;
+    font-size: 37px;
+    font-family: 'IM Fell DW Pica SC', serif;
+}
+.symbole{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 70px;
+    background: whitesmoke;
+    border-radius: 25px;
+  
+}
+
+/* sociel link */
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 10px solid whitesmoke;
+    border-radius: 20px;
+    width: 77px;
+    animation: 7s infinite icons;
+}
+@keyframes icons{
+    50%{
+        border: 1px solid whitesmoke;
+    }
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+   animation: 7s infinite icon;
+}
+@keyframes icon{
+    50%{
+        transform: translateX(250px);
+    }
+}
+
+.items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;    
+}
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+.h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: ;
+    font-size: 30px;
+    color: whitesmoke;
+    animation: 7s infinite h2;
+    font-family: 'El Messiri', sans-serif;
+}
+@keyframes h2{
+    50%{
+        transform: translateX(300px);
+        opacity: 0;
+    }
+}
+    </style>
+    <!-- profil -->
+    <div class="profil">
+       <div class="prof"><img src="https://img.icons8.com/ios-filled/75/00008b/share--v1.png"/></div>
+    </div>
+    <!-- title -->
+    <div class="title">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bangers&family=Cinzel+Decorative&family=Cookie&family=El+Messiri&family=IM+Fell+DW+Pica+SC&family=Pacifico&family=Rajdhani:wght@400;500&family=Schoolbell&family=Square+Peg&family=Tapestry&display=swap');
+            </style>
+     <h1 class="h1">Sociel LinK <img class="symbole" src="https://img.icons8.com/material-sharp/64/00008b/centralized-network.png"/></h1>
+    </div>
+        <!-- menu -->
+        <div class="menu">
+            <div class="adr">
+            <img class="img" src="https://img.icons8.com/ios-glyphs/64/00008b/whatsapp.png"/>
+            <img class="img" src="https://img.icons8.com/ios-filled/64/00008b/mail.png"/>
+            <img class="img" src="https://img.icons8.com/pastel-glyph/64/00008b/worldwide-location--v2.png"/>
+            </div>
+        </div>
+        <!-- social link -->
+        <div class="container">
+            <div class="icons">
+            <div class="icon"><img src="https://img.icons8.com/ios-filled/64/ffa500/facebook-new.png"/></div>
+            <div class="icon"><img src="https://img.icons8.com/ios-filled/64/ffa500/instagram-new--v1.png"/></div>
+            <div class="icon"><img src="https://img.icons8.com/ios-filled/64/ffa500/linkedin.png"/></div>
+            <div class="icon"><img src="https://img.icons8.com/ios-glyphs/64/ffa500/twitter--v1.png"/></div>
+            <div class="icon"><img src="https://img.icons8.com/ios-filled/64/ffa500/youtube-play.png"/></div>
+            </div>
+            <!--  -->
+        <div class="items">
+           <div class="item"><h2 class="h2"> FACEBOOK</h2></div>
+           <div class="item"><h2 class="h2"> INSTAGRAM</h2></div>
+           <div class="item"><h2 class="h2"> LINKDIN</h2></div>
+           <div class="item"><h2 class="h2"> TWITTER</h2></div>
+           <div class="item"><h2 class="h2"> YOUTUB</h2></div>
+        </div>
+
+        </div>
+    
+</body>
+</html>

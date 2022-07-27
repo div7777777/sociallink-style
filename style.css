@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.body{
+    height: 915px;
+    background: linear-gradient(180deg, orange, darkblue);
+}
+/* profil */
+.profil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.prof{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110px;
+    width: 110px;
+    border: 12px solid whitesmoke;
+    border-radius: 50px;
+}
+/* menu */
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 45px;
+}
+.img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.adr{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 4px solid darkblue;
+    border-radius: 50px;
+    height: 75px;
+    width: 400px;
+}
+ 
+/* title */
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: auto;
+    background: whitesmoke;
+}
+.h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: darkblue;
+    font-size: 37px;
+    font-family: 'IM Fell DW Pica SC', serif;
+}
+.symbole{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 70px;
+    background: whitesmoke;
+    border-radius: 25px;
+  
+}
+
+/* sociel link */
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 10px solid whitesmoke;
+    border-radius: 20px;
+    width: 77px;
+    animation: 7s infinite icons;
+}
+@keyframes icons{
+    50%{
+        border: 1px solid whitesmoke;
+    }
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+   animation: 7s infinite icon;
+}
+@keyframes icon{
+    50%{
+        transform: translateX(250px);
+    }
+}
+
+.items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;    
+}
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+.h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: ;
+    font-size: 30px;
+    color: whitesmoke;
+    animation: 7s infinite h2;
+    font-family: 'El Messiri', sans-serif;
+}
+@keyframes h2{
+    50%{
+        transform: translateX(300px);
+        opacity: 0;
+    }
+}
